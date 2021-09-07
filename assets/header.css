@@ -1,0 +1,42 @@
+.header {
+    position: relative;
+    z-index: 9999;
+}
+
+.header h1 {
+    text-align: right;
+    font-size: 17px;
+    color: blue;
+}
+
+.header span {
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+}
+
+.header .item-header-1 .text-index {
+    font-weight: bold;
+}
+
+
+.item-header-1 {
+    /* Padding 8px adalah ukuran atas bawah, 32 ukuran kiri kanan*/
+    margin-top: 4px;
+    padding: 30px 32px;
+    background-color: #f4f4f4;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px -1px;
+
+}
+
+.header .item-header-1 span {
+    color: #929292;
+}
+
+.header .item-header-1 span:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.item-header-1 .img-unbin {
+    width: 130px;
+}
